@@ -7,6 +7,50 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="javascript" href="javascript.js">
     <script src="javascript.js" defer></script>
+    <style>
+        /* Tambahan style untuk layout yang lebih baik */
+        .welcome-section {
+            text-align: center;
+            margin: 2rem auto;
+            max-width: 900px;
+            padding: 1.5rem;
+            background-color: var(--secondary-color);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+
+        .welcome-section h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: #5AA3D8;
+            text-align: center;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        .welcome-section h3::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background-color: var(--accent-color);
+            border-radius: 2px;
+        }
+
+        .family-description {
+            text-align: justify;
+            line-height: 1.8;
+            margin-top: 1.5rem;
+        }
+
+        .family-description p {
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -25,16 +69,26 @@
         <p>"Setiap langkah kecil menuju impian selalu lebih berarti saat ditemani oleh keluarga yang setia di samping kita"</p>
         <section class="profile">
             <div class="gallery-container">
-                <img src="image/photo2.JPG" alt="Foto 2" width="75%">
+                <img src="image/photo3.JPG" alt="Foto 3" width="75%">
+            </div>
+        </section>
+        
+        <!-- Section untuk Welcome to Rombeallo's Family dengan styling yang lebih baik -->
+        <section class="welcome-section">
+            <h3>Welcome to Rombeallo's Family!</h3>
+            <div class="family-description">
+                <p>Dengan penuh rasa syukur, kami hadirkan halaman ini sebagai persembahan kecil untuk memperkenalkan keluarga kami. Sebuah keluarga sederhana yang dipenuhi dengan cinta, doa, dan semangat saling mendukung di setiap langkah.</p>
+                
+                <p>Kepala keluarga kami adalah Papa, sosok yang bertanggung jawab, penuh kasih sayang, dan menjadi panutan bagi kami semua. Mama kami adalah seorang ibu rumah tangga yang tegas, bijaksana, dan selalu menjaga kekompakan serta ketertiban di dalam keluarga.</p>
+                
+                <p>Kami bersyukur memiliki kakak pertama, seorang lulusan S1 Budidaya Perairan di Institut Teknologi dan Bisnis Maritim Balik Diwa Makassar, yang telah menjadi inspirasi bagi adik-adiknya dalam meraih pendidikan yang lebih baik. Saya sendiri, saat ini sedang menempuh perkuliahan di S1 Teknik Informatika, Universitas Sam Ratulangi, berusaha memberikan yang terbaik demi membanggakan orang tua dan keluarga.</p>
+                
+                <p>Adik ketiga kami saat ini tengah menjalani pendidikan di D4 Teknik Multimedia dan Jaringan, Politeknik Negeri Ujung Pandang, dengan semangat dan antusiasme yang tinggi di bidang teknologi. Sedangkan adik kami yang bungsu saat ini masih duduk di kelas 8 SMP, terus berusaha meraih prestasi dan menjadi kebanggaan keluarga di usia mudanya.</p>
+                
+                <p>Semoga halaman ini dapat menjadi ruang kecil untuk berbagi cerita, kenangan, dan kehangatan keluarga kami kepada siapa saja yang berkunjung.</p>
             </div>
         </section>
     </main>
-        <h3>Welcome to Rombeallo's Family!</h3>
-        <p>Dengan penuh rasa syukur, kami hadirkan halaman ini sebagai persembahan kecil untuk memperkenalkan keluarga kami. Sebuah keluarga sederhana yang dipenuhi dengan cinta, doa, dan semangat saling mendukung di setiap langkah.</p>
-        <p>Kepala keluarga kami adalah Papa, sosok yang bertanggung jawab, penuh kasih sayang, dan menjadi panutan bagi kami semua. Mama kami adalah seorang ibu rumah tangga yang tegas, bijaksana, dan selalu menjaga kekompakan serta ketertiban di dalam keluarga.</p>
-        <p>Kami bersyukur memiliki kakak pertama, seorang lulusan S1 Budidaya Perairan di Institut Teknologi dan Bisnis Maritim Balik Diwa Makassar, yang telah menjadi inspirasi bagi adik-adiknya dalam meraih pendidikan yang lebih baik. Saya sendiri, saat ini sedang menempuh perkuliahan di S1 Teknik Informatika, Universitas Sam Ratulangi, berusaha memberikan yang terbaik demi membanggakan orang tua dan keluarga.</p>
-        <p>Adik ketiga kami saat ini tengah menjalani pendidikan di D4 Teknik Multimedia dan Jaringan, Politeknik Negeri Ujung Pandang, dengan semangat dan antusiasme yang tinggi di bidang teknologi.Sedangkan adik kami yang bungsu saat ini masih duduk di kelas 8 SMP, terus berusaha meraih prestasi dan menjadi kebanggaan keluarga di usia mudanya.
-        <p>Semoga halaman ini dapat menjadi ruang kecil untuk berbagi cerita, kenangan, dan kehangatan keluarga kami kepada siapa saja yang berkunjung.</p>
     <footer>
         <p>&copy; GABRYELA'S PERSONAL HOMEPAGE</p>
     </footer>
